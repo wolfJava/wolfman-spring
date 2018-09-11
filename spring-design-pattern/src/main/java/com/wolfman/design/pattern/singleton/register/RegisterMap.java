@@ -7,7 +7,7 @@ public class RegisterMap {
 
     private RegisterMap(){};
 
-    private static Map<String,Object> register = new ConcurrentHashMap<>();
+    private static Map<String,Object> register = new ConcurrentHashMap<String,Object>();
 
     public static RegisterMap getInstance(String name){
 
